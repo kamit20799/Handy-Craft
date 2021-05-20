@@ -306,15 +306,15 @@ ul {
     font-size: 16px;
 }
 
-/* .menu-icon {
+.menu-icon {
     width: 28px;
     margin-left: 20px;
     display: none;
-} */
+}
 
 /*-------------------media query for menu ---------*/
 
-/* @media only screen and (max-width: 880px) {
+@media only screen and (max-width: 880px) {
     nav ul {
         position: absolute;
         top: 70px;
@@ -324,6 +324,7 @@ ul {
         overflow: hidden;
         transition: max-height 0.5s;
     }
+    
     nav ul li {
         display: block;
         margin-right: 50px;
@@ -338,4 +339,4 @@ ul {
         display: block;
         cursor: pointer;
     }
-} */
+}
