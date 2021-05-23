@@ -1,4 +1,3 @@
-
 *
 {
 	margin: 0;
@@ -56,6 +55,7 @@ header .navigation li a:hover {
 	color: black;
 }
 
+
 cart-icon {
 	color: #7868e6;
 }
@@ -78,6 +78,7 @@ header .search input {
 	border: 1px solid #707070;
 	border-radius: 4px;
 	padding: 0 10px 0 45px;
+	
 }
 
 header .search input::placeholder {
@@ -95,6 +96,7 @@ header .search .fa-search {
 }
 
 /* Body Header */
+
 .home_header {
 	display: flex;
     align-items: center;  
@@ -140,204 +142,9 @@ header .search .fa-search {
 }
 
 
-
-/* <!-- Product Catagories --> */
-
-
-.product_catagories {
-	background-color: rgb(245, 236, 236);
-	margin: auto;
-	padding: 30px;
-}
-
-.heading {
-    text-align: center;
-	font-size: 40px;
-    margin: 0 auto 40px;
-    position: relative;
-    line-height: 60px;
-    color: black;
-}
-
-.heading::after {
-    content: '';
-    background: #ff523b;
-    width: 80px;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.product_catagories_container {
-	display: flex;
-	justify-content: space-around;
-	cursor: pointer;
-	margin-bottom: 40px;
-}
-
-
-.product_catagories_container_card {
-	width: 300px;
-    height: 300px;
-    border: 0px solid white;
-    border-radius: 6px;
-	margin: 4px;
-    box-shadow: 5px 5px 15px  lightgrey;
-	text-align: center;
-}
-
-.product_catagories_container_card:hover {
-	box-shadow: 15px 15px 15px  lightgrey;
-	transform: scale(1.2); 
-	
-}
-
-.line {
-	font-weight: 300;
-	color: red;
-	padding-left: 10px;
-}
-
-.product_catagories_container_card_name {
-	font-size: 20px;
-	font-weight: 500;
-	color: black;
-	text-decoration: none;
-	align-items: center;
-}
-
-.overlay {
-	bottom: 0; 
-	color: #f1f1f1; 
-	width: 100%;
-	transition: .5s ease-in-out;
-	opacity:0;
-	color: white;
-	font-size: 20px;
-	text-align: center;
-	
-  }
-  
-.product_catagories_container_card:hover .overlay {
-	opacity: 1;
-}
-
-.btn2 {
-	border-radius: 4px;
-	background: radial-gradient(#fff, #0ecaebce);
-	border: none;
-	padding: 5px 5px 4px 5px;
-}
-
-.btn2 a {
-	text-decoration: none;
-}
-
-/* <!-----------------Offer----------------> */
-
-.offer {
-    background: radial-gradient(#fff, #ffd6d6);
-    padding: 30px 0;
-}
-
-.small-container {
-    max-width: 1080px;
+.demo {
     margin: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.row {
-    display: flex;
-    align-items: center;  
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.col-2 .offer-img {
-    padding: 50px;
-}
-
-.small {
-    color: #555;
-}
-
-.col-2 {
-    flex-basis: 50%;
-    min-width: 300px;
-}
-
-/* <!----------------Testimonial-----------> */
-
-.testimonial {
-    padding-top: 100px;
-}
-
-.testimonial .col-3 {
     text-align: center;
-    padding: 40px 20px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
-    cursor: pointer;
-    transition: transform 0.5s;
-}
-
-.testimonial .col-3 img{
-    width: 50px;
-    margin-top: 20px;
-    border-radius: 50%;
-}
-
-.testimonial .col-3:hover {
-    transform: translateY(-10px);
-}
-
-.fa.fa-quote-left {
-    font-size: 34px;
-    color: #ff523b;
-}
-
-.col-3 {
-    flex-basis: 30%;
-    min-width: 250px;
-    margin-bottom: 30px;
-}
-
-.col-3 p {
-    font-size: 12px;
-    margin: 12px 0;
-    color: #777;
-}
-
-.testimonial .col-3 h3 {
-    font-weight: 600;
-    color: #555;
-    font-size: 16px;
-}
-
-.rating .fa{
-    color: #ff523b;
-}
-
-/*<!------------- brands-----------> */
-.brands {
-    margin: 100px auto;
-}
-
-.col-5 {
-    width: 160px;
-}
-
-.col-5 img {
-    width: 100%;
-    cursor: pointer;
-    filter: grayscale(100%);
-}
-
-.col-5 img:hover {
-    filter: drop-shadow(18px 8px 11px lightgray)
 }
 
 /* footer */
@@ -377,12 +184,13 @@ footer .container .sec p {
     color: #e98410;
 }
 
-.sci {
+.sci{
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 50px);
     grid-gap: 10px;
 }
+
 .sci li {
     list-style: none;
 }
@@ -402,10 +210,12 @@ footer .container .sec p {
 .sci li a:hover {
     background: #6380fe;
 }
+
 .sci li a .fa {
     color: #f3f3f3;
     font-size: 20px;
 }
+
 .quicklinks {
     position: relative;
 }
@@ -447,8 +257,8 @@ footer .container .sec p {
 .info a {
     color: #6380fe;
     text-decoration: none;
-    
 }
+
 .info a:hover {
     color: #e98410;
 }
