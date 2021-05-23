@@ -6,9 +6,34 @@
         
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./style/login.css">
-        <title>Slider</title>
+		<!-- <link rel="stylesheet" href="./style/index.css"> -->
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <title>Handy Craft | Account</title>
     </head>
     <body>
+
+		<!---------- Navigation Bar --------------->
+		<header>
+			<a href="index.html" class="logo">Handy Craft</a>
+	
+			<div class="search">
+				<input type="text" placeholder="Search">
+					<i class="fa fa-search" aria-hidden="true"></i>
+				</div>
+			</div>
+			<ul class="navigation">
+				<li><a href="./about.html">About</a></li>
+				<li><a href="./product.html">Products</a></li>
+				<li><a href="./FAQ.html">FAQ</a></li>
+				<li><a href="./login.html">Account</a></li>
+				<li>
+					<a href="#">
+						<i class="fa fa-shopping-cart fa-2x" style="color:#707070" aria-hidden="true"></i>
+					</a>
+				</li>
+			</ul>
+		</header> 
 
         <div class="container right-panel-active">
 			<!-- Sign Up -->
@@ -18,18 +43,18 @@
 					<input type="text" placeholder="User" class="input" />
 					<input type="email" placeholder="Email" class="input" />
 					<input type="password" placeholder="Password" class="input" />
-					<button class="btn">Sign Up</button>
+					<button class="log_btn">Sign Up</button>
 				</form>
 			</div>
 
 			<!-- Sign In -->
 			<div class="container__form container--signin">
-				<form action="#" class="form" id="form2">
+				<form action="./index.html" class="form" id="form2">
 					<h2 class="form__title">Sign In</h2>
 					<input type="email" placeholder="Email" class="input" />
 					<input type="password" placeholder="Password" class="input" />
 					<a href="#" class="link">Forgot your password?</a>
-					<button class="btn">Sign In</button>
+					<button class="log_btn">Sign In</button>
 				</form>
 			</div>
 
@@ -37,14 +62,15 @@
 			<div class="container__overlay">
 				<div class="overlay">
 					<div class="overlay__panel overlay--left">
-						<button class="btn" id="signIn">Sign In</button>
+						<button class="log_btn" id="signIn">Sign In</button>
 					</div>
 					<div class="overlay__panel overlay--right">
-						<button class="btn" id="signUp">Sign Up</button>
+						<button class="log_btn" id="signUp">Sign Up</button>
 					</div>
 				</div>
 			</div>
 		</div>
+		
 		
         <script src="./js/login.js"></script>
     </body>
