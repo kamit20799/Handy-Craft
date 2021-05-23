@@ -6,230 +6,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Handy Craft | Home</title>
     <link rel="stylesheet" href="./style/index.css">
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    
-    <!-- Google Font Link -->
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;  1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- Social Media Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-    
 
 <body>
-    <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <h2>Handy Carft</h2>
-                    <!-- <img src="./images/python.png" width="190px" alt=""> -->
-                </div>
-                <nav>
-                    <ul class="MenuItems">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="login.html">Account</a></li>
-                    </ul>
-                </nav>
-                <img src="./images/cart.png" width="30px" height="30px">
-                <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+    <!---------- Navigation Bar --------------->
+    <header>
+        <a href="./index.html" class="logo">Handy Craft</a>
+
+        <div class="search">
+            <input type="text" placeholder="Search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+        </div>
+        <ul class="navigation">
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./product.html">Products</a></li>
+            <li><a href="./FAQ.html">FAQ</a></li>
+            <li><a href="./login.html">Account</a></li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-shopping-cart fa-1sx" style="color:#707070" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </header>    
+
+    <!-- Page Header -->
+    <section class="home_header">
+        <div class="home_header_left">
+            <h1 class="home_header_left_heading">
+                Welcome to the world of HandyCraft
+            </h1>
+            <p class="home_header_left_subheading">
+                India's largest handicraft store
+            </p>
+            <a href="" class="btn">Shop Now</a>
+        </div>
+        <div class="home_header_right">
+            <div class="home_header_left_image">
                 
             </div>
-            <div class="row">
-                <div class="col-2">
-                    <h1>Welcome to Handy Craft India!</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae repellendus minima fuga sed eveniet dolor</p>
-                    <a href="" class="btn">Explore Now &#8594</a>
-                </div>
-                <div class="col-2">
-                    <img src="./images/navpix.png" alt="">
-                    
-                </div>
-            </div>
+            <img src="./images/cartoon.jpg">
         </div>
-    </div>
+    </section>
+       
+<!-- Product Catagories -->
+    <section class="product_catagories">
+        <div class="course_type">
+            <p class="heading">Product Catagories</p>
+            <div class="product_catagories_container">
+                <div class="product_catagories_container_card">
+                    <img src="./images/kitchen.jpg" width="296px" height="250px">
+                    <hr class="line">
+                    <div class="product_catagories_container_card_name">
+                        <p>Kitchen Essentials</p>
+                        
+                    </div>
 
-<!----------- featured categories --------->
-    <div class="catageories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="./images/poster-6.jpg" >
+                    <div class="overlay">
+                        <button class="btn2">
+                            <a href="#">View More</a>
+                        </button>
+                    </div>     
                 </div>
-                <div class="col-3">
-                    <img src="./images/poster-4.jpg" >
-                </div>
-                <div class="col-3">
-                    <img src="./images/poster-6.jpg" >
-                </div>
-            </div>
-        </div>
-    </div>
-    
-<!----------- featured categories --------->
 
-    <div class="small-container">
-        <h2 class="title">Featured Products</h2>
-        <div class="row">
-            <div class="col-4">
-                <img src="./images/poster-10.jpg">
-                <h4>Thank You</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o" ></i>
+                <div class="product_catagories_container_card">
+                    <img src="./images/vase2.jpg" width="296px" height="250px">
+                    <hr class="line">
+                    <div class="product_catagories_container_card_name">
+                        
+                        <p>Flower Vase</p>
+                    </div> 
+                    <div class="overlay">
+                        <button class="btn2">
+                            <a href="#">View More</a>
+                        </button>
+                    </div>
                 </div>
-                <p>100</p>
-            </div>
-            <div class="col-4">
-                <img src="./images/poster-6.jpg">
-                <h4>Wall Decoraters</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o" ></i>
+
+                <div class="product_catagories_container_card">
+                    <img src="./images/download-2.jpg" width="296px" height="250px">
+                    <hr class="line">
+                    <div class="product_catagories_container_card_name">
+                        <p>Pen Holder</p>
+                    </div>
+                    <div class="overlay">
+                        <button class="btn2">
+                            <a href="#">View More</a>
+                        </button>
+                    </div>
                 </div>
-                <p>100</p>
-            </div>
-            <div class="col-4">
-                <img src="./images/poster-9.jpg">
-                <h4>Show</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half"></i>
-                    <i class="fa fa-star-half-o" ></i>
+
+                <div class="product_catagories_container_card">
+                    <img src="./images/poster-11.jpg" width="296px" height="250px">
+                    <hr class="line">
+                    <div class="product_catagories_container_card_name">
+                        <p>Home Decorations</p>
+                    </div> 
+                    <div class="overlay">
+                        <button class="btn2">
+                            <a href="#">View More</a>
+                        </button>
+                    </div>
                 </div>
-                <p>100</p>
-            </div>
-            <div class="col-4">
-                <img src="./images/poster-8.jpg">
-                <h4>Cactus</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o" ></i>
-                </div>
-                <p>100</p>
             </div>
         </div>
-        <!-- Latest Products -->
-        <h2 class="title">Latest Products</h2>
-        <div class="row">
-            <div class="col-4">
-                <img src="./images/poster-19.jpg">
-                <h4>Thank You</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o" ></i>
-                </div>
-                <p>100</p>
-            </div>
-            <div class="col-4">
-                <img src="./images/poster-10.jpg">
-                <h4>Wall Decoraters</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o" ></i>
-                </div>
-                <p>100</p>
-            </div>
-            <div class="col-4">
-                <img src="./images/poster-11.jpg">
-                <h4>Show</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o" ></i>
-                </div>
-                <p>100</p>
-            </div>
-            <div class="col-4">
-                <img src="./images/poster-8.jpg">
-                <h4>Cactus</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o" ></i>
-                </div>
-                <p>100</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <img src="./images/poster-13.jpg">
-                <h4>Thank You</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o" ></i>
-                </div>
-                <p>100</p>
-            </div>
-            <div class="col-4">
-                <img src="./images/poster-14.jpg">
-                <h4>Wall Decoraters</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o" ></i>
-                </div>
-                <p>100</p>
-            </div>
-            <div class="col-4">
-                <img src="./images/poster-15.jpg">
-                <h4>Show</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o" ></i>
-                </div>
-                <p>100</p>
-            </div>
-            <div class="col-4">
-                <img src="./images/poster-16.jpg">
-                <h4>Cactus</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o" ></i>
-                </div>
-                <p>100</p>
-            </div>
-        </div>
-    </div>
-<!-----------------Offer---------------->
+    </section>
+    <!-----------------Offer---------------->
     <div class="offer">
         <div class="small-container">
             <div class="row">
@@ -237,16 +131,16 @@
                     <img src="./images/temp1.png" alt="offer-image">
                 </div>
                 <div class="col-2">
-                    <p>Exclusivly available at HandyCraft Store only!</p>
+                    <h4>Exclusivly available at HandyCraft Store only!</h4>
                     <h1>Lord Ganesh</h1>
                     <small>Beautiful Brass Lord Ganesha made in Pure Brass sitting on chowki. Lord Ganesha represents Joy and happiness which is symbolic to bring Prosperity and Good Luck. He is the Lord of success and destroyer of evils and obstacles. He removes any potential obstacles and enables our endeavours to succeed. He is also worshipped as the god of education, knowledge, wisdom and wealth. </small><br>
                     <a href="" class="btn">Buy Now &#8594</a>
                 </div>
             </div>
         </div>
-    </div>
-<!----------------Testimonial----------->
-
+    </div>    
+    <!----------------Testimonial----------->
+    
     <div class="testimonial">
         <div class="small-container">
             <div class="row">
@@ -292,8 +186,9 @@
             </div>
         </div>
     </div>
-<!--------------------------brands--------->
-     
+
+    <!--------------------------brands--------->
+
     <div class="brands">
         <div class="small-container">
             <div class="row">
@@ -315,68 +210,112 @@
             </div>
         </div>
     </div>
-<!-----------------Footer---------------------->
-    
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col-1">
-                    <h3>Download our App</h3>
-                    <p>Download App for Anroid &ios mobile phone.</p>
-                    <div class="app-logo">
-                        <img src="./images/play-store.png">
-                        <img src="./images/app-store.png">
-                    </div>
-                </div>
-                
-                <div class="footer-col-2">
-                    <img src="./images/logo-white.png">
-                    <h2>Handy Carft</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-                </div>
-                <div class="footer-col-3">
-                    <h3>Useful Links</h3>
-                    <ul>
-                        <li>Coupons</li>
-                        <li>Blog Post</li>
-                        <li>Return Policy</li>
-                        <li>Join Affliate</li>
-                    </ul>
-                </div>
-                <div class="footer-col-3">
-                    <h3>Follow Us</h3>
-                    <ul>
-                        <li>Facebook</li>
-                        <li>Twitter</li>
-                        <li>Instagram</li>
-                        <li>YouTube</li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <p class="copyright">Copyright 2021 - Handy Craft</p>
+
+    <!-- FAQ Section -->
+    <!-- <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <strong>Accordion 1</strong><i class="fas fa-angle-down"></i>
+          </button>
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis atque,
+            voluptates minima quod quisquam et quasi debitis officia non illo
+            harum iure eos reprehenderit quaerat, veritatis asperiores facilis qui
+            neque.
+          </div>
         </div>
+  
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <strong>Accordion 2</strong><i class="fas fa-angle-down"></i>
+          </button>
+          <div class="accordion-body">
+            Dignissimos perspiciatis amet, qui soluta aliquid, ipsa ea alias
+            quidem officiis vel, inventore quod labore aspernatur exercitationem
+            fugit explicabo rerum dolores quo unde assumenda reprehenderit vero
+            temporibus? Magni, nesciunt vero?
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <strong>Accordion 3</strong><i class="fas fa-angle-down"></i>
+          </button>
+          <div class="accordion-body">
+            Amet fuga ipsum velit, quae illo doloremque? Id quidem harum placeat
+            porro ipsam, animi voluptatem vel mollitia, quae rerum suscipit modi
+            at consequatur ipsum vitae cum aspernatur itaque non quam?
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <strong>Accordion 4</strong><i class="fas fa-angle-down"></i>
+          </button>
+          <div class="accordion-body">
+            Nihil consectetur ipsum nobis eligendi facilis sed corrupti, ab fugit
+            ducimus dolorem rem nulla excepturi impedit sint ea, eveniet provident
+            quos repudiandae a quas reiciendis aut, incidunt corporis? Laboriosam,
+            labore.
+          </div>
+        </div>
+    </div> -->
+
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p> A handicraft, sometimes more precisely expressed as artisanal handicraft or handmade, is any of a wide variety of types of work where useful and decorative objects are made completely by one’s hand (hence the term handicraft) or by using only simple, non-tech related tools like scissors, carving implements, or hooks.
+                    <ul class="sci">
+                     <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                     <li><a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                     <li><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     <li><a href="https://in.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> 
+                 </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="/FAQ.html">FAQ</a></li>
+                    <li><a href="./product.html">Produt</a></li>
+                    <li><a href="./login.html">Login/Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Products</h2>
+                <ul>
+                    <li><a href="#">Kitchen Essentials/a></li>
+                    <li><a href="#">Flower Vase</a></li>
+                    <li><a href="#">Pen Holder</a></li>
+                    <li><a href="#">Home Decorations</a></li> 
+                </ul>
+            </div>
+            <div class="sec contact">
+                <h2>Contact Us</h2>
+                <ul class="inf0">
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span>#123 near DMC<br>
+                        Hambra Road, Ludhiana</span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <p><a href="tel:+91 123456789">+9112 345 6789</a><br>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <p><a href="mailto:knowmore@gmail.com">knowmore@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyrightText">
+        <p>Copyright @ 2021 Online Tutorials. All Rights Reserved.</p>
     </div>
-<!------------js for toggle menu----------->
-    
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
 
-        MenuItems.style.maxHeight = "0px";
-
-        function menutoggle(){
-            if(MenuItems.style.maxHeight == "0px")
-            {
-                MenuItems.style.maxHeight = "200px"
-            }
-            else
-            {
-                MenuItems.style.maxHeight = "0px"
-            }
-
-        }
-    </script>
-    
-    
-</body> 
+    <script src="/index.js"></script>
+</body>
 </html>
